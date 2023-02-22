@@ -35,7 +35,7 @@
         const cube = new THREE.Mesh(geometry, material);
         scene.add(cube);
         const textureLoader = new THREE.TextureLoader();
-const woodTexture = textureLoader.load('wood.jpg');
+const woodTexture = textureLoader.load('wood.png');
 
 const planeGeometry = new THREE.PlaneGeometry(100, 100, 10, 10);
 const planeMaterial = new THREE.MeshBasicMaterial({ map: woodTexture });
